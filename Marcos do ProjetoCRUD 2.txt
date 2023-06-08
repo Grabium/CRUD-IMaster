@@ -4,8 +4,10 @@ Depois de criar o repositório no github crie o projeto:
 Edite o nome e outros dados do bd (especialmente o nome)no
 	arquivo .env (no caso do Replit, no arquivo ".laravel.env" uso
  	as diretivas "DB_CONNECTION=sqlite" e "DB_DATABASE=crud_basic")
+	
 
-Iniciar o apache e mysql no xampp (no pc).
+Iniciar o apache e mysql no xampp (no pc). E acesse localhost/phpmyadmin, 
+	clique em Novo e digite o nome do seu novo banco de dados.
 
 Criar migration e a classe modelo. Prefira um nome no singular:
 	Term: php artisan make:model <Entidade> -m
